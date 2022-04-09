@@ -23,7 +23,7 @@ systemctl enable v2ray@aggregator_conf
 apt install ufw
 ufw allow 22
 ufw allow 31351
-ufw enable
+ufw enable -y
 
 
 echo "Done. Rebooting now..."
