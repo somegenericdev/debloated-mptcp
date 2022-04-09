@@ -6,6 +6,7 @@ V2RAY_PASSWORD=mypassword
 
 #update repositories
 apt update -y
+apt update -y
 #install curl
 apt install curl -y
 
@@ -29,7 +30,7 @@ dpkg --force-all -i -B /tmp/linux-image.deb
 apt install ufw
 ufw allow 22
 ufw allow 31351
-ufw enable -y
+echo y | ufw enable 
 
 
 echo "Done. Rebooting now..."
