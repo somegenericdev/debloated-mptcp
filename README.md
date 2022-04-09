@@ -1,11 +1,11 @@
 A collection of resources to setup a multi WAN aggregator, in a similiar fashion to OpenMPTCPRouter, but without all the unnecessary stuff.
-#Why
+# Why
 
 OpenMPTCPRouter is heavily bloated, officially supported only by a handful of devices and its size makes it impossible to install it on some devices with a small flash.
 
-#How
+# How
 
-##VPS
+## VPS
 1. Download the script
 ```console
 wget https://raw.githubusercontent.com/somegenericdev/debloated-mptcp/main/vps/script.sh`
@@ -22,7 +22,7 @@ chmod +x script.sh`
 ```console
 ./script.sh`
 ```
-##Gateway
+## Gateway
 1. Compile OpenWrt with MPTCP kernel for your device ([follow arinc9's guide](https://forum.openwrt.org/t/tutorial-build-openwrt-with-multipath-tcp/84325))
 
 2. Install v2ray (at compile time or later)
